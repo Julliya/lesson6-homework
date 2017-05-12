@@ -26,7 +26,7 @@ function squareEq(a, b, c) {
     else if(d == 0){
         result = 'x1,2 = ' + (-b/(2*a));
     }
-    else{
+    else if(d < 0){
         result = 'no decisions';
     }
     return result;
