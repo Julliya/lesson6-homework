@@ -1,7 +1,7 @@
 var a = Number(prompt('Enter A'));
 if(a==0){
     alert("A can not be 0!");
-    var a = Number(prompt('Enter A'));
+    a = Number(prompt('Enter A'));
 }
 var b = Number(prompt('Enter B'));
 var c = Number(prompt('Enter C'));
