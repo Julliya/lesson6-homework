@@ -1,13 +1,12 @@
 var a = Number(prompt('Enter A'));
-if(a==0){
-    alert("A can not be 0!");
-    a = Number(prompt('Enter A'));
-}
 var b = Number(prompt('Enter B'));
 var c = Number(prompt('Enter C'));
 
 if (Number.isNaN(a) || Number.isNaN(b) || Number.isNaN(c)) {
      document.write('You incorrectly entered number! Try again.');
+}
+if(a==0){
+   document.write("A can not be 0! Try again");
 }
 else{
     var result = squareEq(a, b, c);
